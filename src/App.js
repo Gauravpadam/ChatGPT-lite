@@ -19,6 +19,7 @@ const App = () => {
   };
   return (
     <div className='App'>
+      <h1>Welcome to ChatGPT lite</h1>
       <form onSubmit={handleSubmit}>
         <textarea 
           value={message}
